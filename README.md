@@ -6,9 +6,12 @@ This repo contains command line tool with the following functionalities:
 
 a) It interconnects several hosts to a logical network. It makes it possible that all nodes connected to all other nodes.  
 b) **Join** operation allows a new node to join the network of already connected nodes.
+
 c) New machines join the network by sending a join message to one of the machines already in the network. 
 address of the new host is thereupon propagated in the network.
+
 d) Hosts is also able to **sign off** from the network again.
+
 e) One node in the network is elected as master node. The master node stores a string variable that is initially empty.
 
 **2. Distributed Read and Write Operations**
