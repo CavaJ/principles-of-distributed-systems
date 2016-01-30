@@ -1,7 +1,7 @@
 # Principles Of Distributed Systems
 
 This repo contains command line tool with the following functionalities:
-**1) Connectivity**
+**1. Connectivity**
 
 a) It interconnects several hosts to a logical network. It makes it possible that all nodes connected to all other nodes.  
 b) **Join** operation allows a new node to join the network of already connected nodes.
@@ -10,7 +10,7 @@ The address of the new host is thereupon propagated in the network.
 d) Hosts is also able to **sign off** from the network again.
 e) One node in the network is elected as master node. The master node stores a string variable that is initially empty.
 
-**2) Distributed Read and Write Operations**
+**2. Distributed Read and Write Operations**
 
 a) Once the network is established any node can start a distributed read / write process by 
 sending a **start** message to all the other nodes in the network. 
