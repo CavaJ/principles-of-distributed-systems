@@ -1,6 +1,7 @@
 # Principles Of Distributed Systems
 
 This repo contains command line tool with the following functionalities:
+
 **1. Connectivity**
 
 a) It interconnects several hosts to a logical network. It makes it possible that all nodes connected to all other nodes.  
