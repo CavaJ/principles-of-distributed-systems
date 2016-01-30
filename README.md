@@ -28,12 +28,15 @@ LOOP
 ...iii. Append some random english word to this string 
 ...iv.  Write the updated string to the master node 
 END LOOP
-c) After the process has ended all the nodes read the final string from the master node and write  it  to  the  screen.
+
+**c)** After the process has ended all the nodes read the final string from the master node and write  it  to  the  screen.
 Moreover  they  check  if  all  the  words  they  added  to  the  string  are present in the final string.
 The result of this check is also written to the screen.  
-d) To make this work, the read and write operations are synchronised using two  different  mutual 
+
+**d)** To make this work, the read and write operations are synchronised using two  different  mutual 
 exclusion algorithms: **Centralised Mutual Exclusion and Ricart & Agrawala.**
-e) The master is elected by the **Bully algorithm.**
+
+**e)** The master is elected by the **Bully algorithm.**
 
 C# and Java implementations  are  interoperable.  For  this  purpose,  XML-RPC cross platform technology 
 for the inter-machine communication is used in both implementations.
