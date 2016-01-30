@@ -18,10 +18,10 @@ sending a **start** message to all the other nodes in the network.
 b) The  process  takes  20  seconds.  During  this  time  all  the  nodes 
 in  the  network  do  the following: 
 LOOP
-...i)   Wait a random amount of time 
-...ii)  Read the string variable from the master node 
-...iii) Append some random english word to this string 
-...iv)  Write the updated string to the master node 
+...1.   Wait a random amount of time 
+...2.  Read the string variable from the master node 
+...3. Append some random english word to this string 
+...4.  Write the updated string to the master node 
 END LOOP
 c) After the process has ended all the nodes read the final string from the master node and write  it  to  the  screen.
 Moreover  they  check  if  all  the  words  they  added  to  the  string  are present in the final string.
